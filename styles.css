@@ -294,7 +294,7 @@ body {
     justify-content: space-between;
 }
 
-.news-section-scroll-navigation {
+.swipe-navigation {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -304,4 +304,57 @@ body {
 
 .swipe-items-margin {
     margin-right: 20px;
+}
+
+.gear-spartan-section {
+    background-image: url('./assets/gear-spartan-background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gear-spartan-green-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #00FF00;
+    margin-top: 40px;
+}
+
+.gear-spartan-green-underline {
+    width: 676px;
+    height: 0px;
+    border-top: 2px solid #00FF00;
+    margin-top: 20px;
+}
+
+.gear-spartan-additional-text {
+    width: 676px;
+    height: 69px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #F7F7F7;
+    margin-top: 20px;
+}
+
+.gear-spartan-shop-button {
+    width: 158px;
+    height: 45px;
+    background: #00FF00;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.15em;
+    color: #141616;
+    border: none;
+    margin-bottom: 590px;
 }
