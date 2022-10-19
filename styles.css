@@ -227,6 +227,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    align-items: center;
 }
 
 .news-header-text-block {
@@ -357,4 +358,69 @@ body {
     color: #141616;
     border: none;
     margin-bottom: 590px;
+}
+
+.razer-exclusive-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+.razer-exclusive-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.razer-exclusive-text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.razer-exclusive-text-green-text {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #00FF00;
+}
+
+.razer-exclusive-text-green-underline {
+    width: 787px;
+    height: 0px;
+    border: 1px solid #00FF00;
+    margin-top: 10px;
+}
+
+.razer-exclusive-see-all-button {
+    width: 137px;
+    height: 45px;
+    background: #F7F7F7;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.15em;
+    color: #141616;
+}
+
+.razer-exclusive-additional-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #828282;
+    margin-top: 10px;
+}
+
+.razer-exclusive-product-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exclusive-product {
+    max-width: 24%;
 }
